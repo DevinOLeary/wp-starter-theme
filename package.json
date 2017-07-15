@@ -1,21 +1,21 @@
 {
-  "name": "starter",
+  "name": "DRT",
   "version": "1.0.0",
-  "description": "starter theme",
+  "description": "DRT Theme",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/djoleary007/wp-starter-theme.git"
+    "url": "git+https://github.com/djoleary007/DRT.git"
   },
   "author": "Devin O'Leary",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/djoleary007/wp-starter-theme/issues"
+    "url": "https://github.com/djoleary007/DRT/issues"
   },
-  "homepage": "https://github.com/djoleary007/wp-starter-theme#readme",
+  "homepage": "https://github.com/djoleary007/DRT#readme",
   "devDependencies": {
     "autoprefixer": "^7.1.2",
     "css-mqpacker": "^6.0.1",

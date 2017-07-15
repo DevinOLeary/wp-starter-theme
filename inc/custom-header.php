@@ -8,33 +8,33 @@
  *
  * @link https://developer.wordpress.org/themes/functionality/custom-headers/
  *
- * @package Starter
+ * @package DRT
  */
 
 /**
  * Set up the WordPress core custom header feature.
  *
- * @uses starter_header_style()
+ * @uses DRT_header_style()
  */
-function starter_custom_header_setup() {
-	add_theme_support( 'custom-header', apply_filters( 'starter_custom_header_args', array(
+function DRT_custom_header_setup() {
+	add_theme_support( 'custom-header', apply_filters( 'DRT_custom_header_args', array(
 		'default-image'          => '',
 		'default-text-color'     => '000000',
 		'width'                  => 1000,
 		'height'                 => 250,
 		'flex-height'            => true,
-		'wp-head-callback'       => 'starter_header_style',
+		'wp-head-callback'       => 'DRT_header_style',
 	) ) );
 }
-add_action( 'after_setup_theme', 'starter_custom_header_setup' );
+add_action( 'after_setup_theme', 'DRT_custom_header_setup' );
 
-if ( ! function_exists( 'starter_header_style' ) ) :
+if ( ! function_exists( 'DRT_header_style' ) ) :
 /**
  * Styles the header image and text displayed on the blog.
  *
- * @see starter_custom_header_setup().
+ * @see DRT_custom_header_setup().
  */
-function starter_header_style() {
+function DRT_header_style() {
 	$header_text_color = get_header_textcolor();
 
 	/*

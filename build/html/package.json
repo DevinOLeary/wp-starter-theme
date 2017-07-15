@@ -1,7 +1,7 @@
 {
-  "name": "starter",
+  "name": "DRT",
   "version": "1.0.0",
-  "description": "Basic Starter Theme",
+  "description": "Basic DRT Theme",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
